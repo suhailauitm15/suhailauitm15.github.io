@@ -119,11 +119,10 @@ span{
 }
 .img-box img{
     height: 100%;
-    left:50%;
+    left:50px;
     position: absolute;
     bottom: 20%;
     transform: translateX(-50%);
-    transform: translateX(80px);
     transition: bottom 1s, left 1s;
     cursor: pointer;
 }
