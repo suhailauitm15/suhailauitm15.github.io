@@ -122,14 +122,14 @@ span{
     height: 100%;
     position: absolute;
     left: 50%;
-    bottom: 20%;
+    bottom: 40%;
     transform: translateX(-30%);
     transition: bottom 1s, left 1s;
     margin-top: 10px;
 }
 .img-box:hover .back-img{
     bottom: 80px;
-    margin-top: 10px;
+    margin-top: 12px;
 
 
 }
