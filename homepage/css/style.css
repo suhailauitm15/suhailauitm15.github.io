@@ -125,7 +125,7 @@ span{
     bottom: 40%;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
-    margin-top: 1px;
+    margin-top: 10px;
     display: block;
 }
 .img-box:hover .back-img{
