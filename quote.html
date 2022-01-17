@@ -51,7 +51,7 @@
       
       <body>
         <div class="wrapper">
-          <header>Quote Motivation &#128526</header>
+          <header>My Quote Motivation &#128526</header>
           <audio id="myAudio">
             <source src="quote/audio/click.mp3" type="audio/ogg">
             <source src="quote/audio/click.mp3" type="audio/mp3"></audio>
@@ -72,11 +72,11 @@
                 <li class="speech"><i class="fas fa-volume-up"></i></li>
 
               </ul>
-              <button id="btn" onclick="speech()"></button>
+              <button id="btn" onclick="newQuote()">Want More!</button>
               <script>
                 var x = document.getElementById("myAudio"); 
                 
-                function speech() { 
+                function newQuote() { 
                   x.play(); 
                 } 
               </script>
@@ -86,7 +86,7 @@
         <script src="quote/js/script.js"></script>
       </body>
       <h2 contenteditable="true">"Everyone have their own quote"</h2>
-    <video id="background-video" autoplay>
+    <video id="background-video" autoplay loop muted>
       <source src="quote/video/bg.mp4" type="video/mp4">
     </video>
     <html>
