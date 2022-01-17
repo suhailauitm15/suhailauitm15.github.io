@@ -11,7 +11,7 @@ function randomQuote(){
         quoteText.innerText = result.content;
         authorName.innerText = result.author;
         quoteBtn.classList.remove("loading");
-        quoteBtn.innerText = "Want More!";
+        quoteBtn.innerText = "new Quote";
     });
 }
 
