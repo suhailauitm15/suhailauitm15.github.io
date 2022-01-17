@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Lobster&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+  
+    div.scrollmenu {
+      background-color: rgb(21, 90, 95);
+      overflow: auto;
+      white-space: nowrap;
+
+
+}
+    
+    div.scrollmenu a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      padding: 13px;
+
+
+    }
+    
+    div.scrollmenu a:hover {
+      background-color: rgb(108, 186, 192);
+    }
+
+h1{
+    
+    font-family: 'Allura', cursive;
+    color: rgb(23, 131, 125);
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+
+
+}

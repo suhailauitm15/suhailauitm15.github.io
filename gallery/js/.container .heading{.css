@@ -1,0 +1,173 @@
+.container .heading{
+    font-size: 3rem;
+    margin:2rem 0;
+    text-transform: capitalize;
+    color: var(--purple);
+    letter-spacing: .2rem;
+    text-align: center;
+    text-shadow: 0 .3rem .5rem rgba(0,0,0,.5);
+}
+.video-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    
+.video-container .video{
+    height:15rem;
+    width:25rem;
+    margin:2rem;
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.7);
+    overflow: hidden;
+    border-radius: 1rem;
+}
+    
+.video-container .video video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+    
+.video-container .video video:hover{
+    transition: .2s linear;
+    transform: scale(1.3) ;
+}
+    
+.video-container .video .active{
+    position: fixed;
+    top:50%; left: 50%;
+    transform: translate(-50%, -50%);
+    height:auto;
+    width: 80%;
+    box-shadow: 0 0 0 100vh rgba(0,0,0,.7);
+    z-index: 1;
+}
+    
+.video-container .video .active:hover{
+    transition: none;
+    transform: translate(-50%, -50%) scale(1) ;       
+}
+
+
+
+
+
+
+.container .heading{
+    font-size: 3rem;
+    margin:2rem 0;
+    text-transform: capitalize;
+    color: var(--purple);
+    letter-spacing: .2rem;
+    text-align: center;
+    text-shadow: 0 .3rem .5rem rgba(0,0,0,.5);
+}
+.container{
+    width: 80%;
+    margin: 20px auto;
+    
+}
+.container h1{
+    padding: 3px 0;
+    color: rgb(248, 202, 165);
+    font-size: 44px;
+    text-align: center;
+
+
+    background: #d34242;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 15%;
+    margin-top: 20px;
+
+    @import url('https://fonts.googleapis.com/css2?family=Allura&family=Lobster&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.container .heading{
+    font-size: 'Allura', cursive, 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    font-size: 3rem;
+    margin:2rem 0;
+    text-transform: capitalize;
+    color: var(--purple);
+    letter-spacing: .2rem;
+    text-align: center;
+    text-shadow: 0 .3rem .5rem rgba(0,0,0,.5);
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.col{
+    flex-basis: 50%;
+    min-width: 250px;
+    
+       
+}
+.main-img{
+    width: 83%;
+    margin:auto;
+    position: relative;
+    border-radius:6px;
+    overflow: hidden;
+
+}
+.small-img-row{
+    display: flex;
+    margin:20px 0;
+    width: 85%;
+    background-color: #d34242;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.small-img{
+    position: relative;
+    
+}
+.small-img img{
+    width: 150px;
+    
+    
+}
+.small-img-row p{
+    margin-left: 20px;
+    margin-right: 50px;
+    color: #f5f0f0;
+    line-height: 20px;
+    font-size: 15px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.play-btn{
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: 50px;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.small-img .play-btn{
+    width: 35px;
+
+
+}
+#videoPlayer:focus{
+    outline: none;
+}
+.close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    cursor: pointer;
+}

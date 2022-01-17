@@ -1,0 +1,113 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="homepage/css/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap" rel="stylesheet">
+      <link rel="icon" type="image/png" href="image/iconmonstr-school-23-240.png"
+  </head>
+  <body>
+    <title>Anis Suhaila.UITM</title>
+    <link rel="stylesheet" href="homepage/css/style.css" />
+    <script type="text/javascript" src="homepage/js/script.js"></script>
+  </head>
+  <body onLoad="renderTime();">
+       <div id="clockDisplay" class="container"></div><align: center>
+  </body>
+
+    <div class="hero">
+
+      <nav>
+        <ul>
+
+          <li><a href="index.html"><i class="fas fa-home"></i>  Home</a></li>
+           <li><a href="biodata.html"> <i class="fas fa-user-circle"></i>  Biodata</a></li>
+            <li><a href="experience.html"> <i class="fas fa-tasks"></i>  Experience</a></li>
+            <li><a href="education.html"> <i class="fas fa-solid fa-school"></i>  My Education</a></li>
+            <li><a href="family.html"> <i class="fas fa-users"></i>  My Family</a></li>
+            <li><a href="gallery.html"> <i class="fas fa-camera"></i>  Gallery</a></li>
+            <li><a href="quote.html"> <i class="fas fa-quote-right"></i> Quote Motivation</a></li>
+            <li><a href="game.html"> <i class="fas fa fa-fighter-jet"></i> Game</a></li>
+
+        </ul>
+        <img src="homepage/image/2.png" id="icon">
+</nav>
+<div class="info">
+  <h1>Welcome to<br><span>  Anis </span> Website </h1>
+
+  <p>This is my official website to showcase my all works related to assignment 
+    <br> Introduction To Web Content Management And Design which is IMD311.<br></p>
+    
+</div>
+<div class="img-box">
+  <img src="homepage/image/3.png" class="back-img">
+  <img src="homepage/image/5.png" class="back-img">
+
+
+</div>
+    </div>
+   <script>
+    var icon = document.getElementById("icon");
+    
+    if(localStorage.getItem("theme") == null){
+    localStorage.setItem("theme", "light");
+   }
+ 
+    let localData = localStorage.getItem("theme");
+    if(localData == "light"){
+      icon.src = "homepage/image/2.png";
+      document.body.classList.remove("dark-theme");
+    }
+    else if(localData == "dark"){
+      icon.src = "homepage/image/1.png";
+      document.body.classList.add("dark-theme");
+
+    }
+
+    icon.onclick = function(){
+      document.body.classList.toggle("dark-theme");
+      if (document.body.classlist.contains("dark-theme")){
+        icon.src = "homepage/image/1.png";
+        localStorage.setItem("theme", "dark");
+      }else{
+        icon.src = "homepage/image/2.png";
+        localStorage.setItem("theme", "light");
+      }
+    }
+    </script>
+    <script src="homepage/js/script.js"></script>
+    <script language="JavaScript">
+  
+      var LastUpdated = document.lastModified;
+      document.writeln ("This website last updated " + LastUpdated);
+
+      </script>
+      <div align="center">
+<span> <h2><p>Copy right © 2022 Anis Suhaila. All right reserved</p></h2></span>
+
+    </body>
+    </html>
+
+ 
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+

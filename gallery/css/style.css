@@ -1,0 +1,39 @@
+body{
+    font-family: sans-serif;
+    position:fix;
+  }
+  h1{
+    text-align: center;
+    color: rgb(197, 31, 94);
+    margin: 30px 0 50px;
+
+  }
+  .gallery{
+    margin: 10px 50px;
+  }
+  .gallery img{
+    width: 210px;
+    padding: 10px;
+    filter: grayscale(100%);
+    transition: 1s;
+  }
+  .gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+    opacity: 1.0;
+
+}
+.gotopbtn{
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  background: #a70958;
+  bottom: 30px;
+  right: 50px;
+
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+
+

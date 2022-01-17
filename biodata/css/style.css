@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Lobster&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+  
+    div.scrollmenu {
+      background-color: rgb(61, 128, 35);
+      overflow: auto;
+      white-space: nowrap;
+      
+      
+
+}
+    div.scrollmenu a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      padding: 14px;
+
+
+    }
+    
+    div.scrollmenu a:hover {
+      background-color: rgb(135, 189, 92);
+    }
+body{
+  font-family: 'Allura', cursive;
+  background: rgb(196, 221, 182);
+  color: rgb(7, 77, 38);
+  height: 170%;
+}
+  
+nav{
+  position:relative;
+  z-index: 10;
+}
+.left-sidebar{
+  width: 20%;
+  height: 200%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #c8ec84;
+
+}
+.row{
+  padding: 0 8%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-left: -20px;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  
+
+}
+.left-col{
+  flex-basis: 40%;
+
+}
+.right-col{
+  flex-basis: 55%;
+}
+.left-col img{
+  width: 23%;
+  filter: grayscale(0);
+  transition: filter 1s;
+  height: 50%;
+  position:absolute;
+    top: 25%;
+    margin-left: 5%;
+    display:block;
+}
+.left-col img:hover{
+  filter: grayscale(1);
+
+}
+.right-col h1{
+  color: rgb(20, 63, 7);
+  margin: 3px 1 20px;
+  justify-content: center;
+
+
+
+}
+.social-media{
+  display: flex;
+  margin-top: 30px;
+}
+.icon{
+  width: 80px;
+  height: 50px;
+  background: rgb(144, 204, 110);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-right: 12px;
+  margin-bottom: 2px;
+  border-radius: 80px;
+  overflow: hidden;
+  transition: transform 0.5s;
+}
+.icon img{
+  width: 28px;
+}
+.icon a{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #c78282;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.5s;
+  
+}
+.icon a:hover{
+  opacity: 1;
+}
+.icon:hover{
+  transform: translateY(-5px);
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #d7e694;
+
+}
+
+td, th {
+  border: 1px solid #39423b;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #cafc91;
+  
+}
+.to-top {
+  background: white;
+  position: fixed;
+  bottom: 16px;
+  right:42px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32px;
+  color:#1f1f1f;
+  text-decoration: none;
+  opacity:0;
+  pointer-events: none;
+  transition: all .4s;
+  transform: translate (-20%, -30%);
+}
+
+.to-top.active {
+  bottom:32px;
+  pointer-events: auto;
+  opacity:1;
+}

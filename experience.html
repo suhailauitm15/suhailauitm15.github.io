@@ -1,0 +1,164 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="experience/css/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap" rel="stylesheet">
+      <link rel="icon" type="image/png" href="image/iconmonstr-school-23-240.png"
+      <link rel="stylesheet" href="experience/css/style.css">
+  </head>
+  <body>
+    
+  
+
+  <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    div.scrollmenu {
+      background-color: rgb(238, 18, 18);
+      overflow: auto;
+      white-space: nowrap;
+    }
+    
+    div.scrollmenu a {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+    }
+    
+    div.scrollmenu a:hover {
+      background-color: rgb(241, 107, 107);
+    }
+    </style>
+    </head>
+    <html>
+  <head>
+  
+ 
+    <title> Anis Suhaila.UITM</title>
+    <link rel='stylesheet' type="text/css" href="experience/css/style.css">
+      <link rel="stylesheet" type="text/css" href="experience/css/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+  </head>
+  <body>
+        <div class="scrollmenu">
+            <a href="index.html"><i class="fas fa-home"></i>  Home</a>
+            <a href="biodata.html"> <i class="fas fa-user-circle"></i>  Biodata</a>
+            <a href="experience.html"> <i class="fas fa-tasks"></i>  Experience</a>
+            <a href="education.html"> <i class="fas fa-solid fa-school"></i>  My Education</a>
+            <a href="family.html"> <i class="fas fa-users"></i>  My Family</a>
+            <a href="gallery.html"> <i class="fas fa-camera"></i>  Gallery</a>
+            <a href="quote.html"> <i class="fas fa-quote-right"></i> Quote Motivation</a>
+            <a href="game.html"> <i class="fas fa fa-fighter-jet"></i> Game</a>
+
+        </div>
+
+    <div class="img-slider">
+      <div class="slide active">
+        <img src="experience/image/1.jpg" alt="" class="center">
+        <div class="info">
+          <h2> When In Diploma &#127891;</h2>
+          <p>During semester 1 where I had a hard time getting along and finding friends of the same course as me. 
+            </p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="experience/image/2.jpg" alt="" class="center">
+        <div class="info">
+          <h2> When In High School &#127968;</h2>
+          <p>I had difficulty with multiplication when the teacher asked me to calculate the multiplication of Mathematics in Malay. </p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="experience/image/3.jpg" alt="" class="center">
+        <div class="info">
+          <h2>When In Kindergarten &#127979;</h2>
+          <p>I had difficulty communicating with them in mandarin when study together with them at kindergarten.</p>
+        </div>
+      </div>
+      
+      <div class="navigation">
+        <div class="btn active"></div>
+        <div class="btn"></div>
+        <div class="btn"></div>
+        
+      </div>
+    </div>
+    
+
+    <script type="text/javascript">
+    var slides = document.querySelectorAll('.slide');
+    var btns = document.querySelectorAll('.btn');
+    let currentSlide = 1;
+
+    var manualNav = function(manual){
+      slides.forEach((slide) => {
+        slide.classList.remove('active');
+
+        btns.forEach((btn) => {
+          btn.classList.remove('active');
+        });
+      });
+
+      slides[manual].classList.add('active');
+      btns[manual].classList.add('active');
+    }
+
+    btns.forEach((btn, i) => {
+      btn.addEventListener("click", () => {
+        manualNav(i);
+        currentSlide = i;
+      });
+    });
+
+    var repeat = function(activeClass){
+      let active = document.getElementsByClassName('active');
+      let i = 1;
+
+      var repeater = () => {
+        setTimeout(function(){
+          [...active].forEach((activeSlide) => {
+            activeSlide.classList.remove('active');
+          });
+
+        slides[i].classList.add('active');
+        btns[i].classList.add('active');
+        i++;
+
+        if(slides.length == i){
+          i = 0;
+        }
+        if(i >= slides.length){
+          return;
+        }
+        repeater();
+      }, 10000);
+      }
+      repeater();
+    }
+    repeat();
+    </script>
+
+  </body>
+  
+</html>
+<htm>
+  <head>
+    <title>animation background</title>
+  </head>
+    <marquee scrollamount="15" direction="left">
+      <img class="image1" width="200px" src="experience/image/a2.gif">
+      <img class="image1" width="200px" src="experience/image/a1.gif">
+      <body background="experience/image/bg.png">
+    </marquee>
+
+</body>
+<div align="center">
+<span> <h2><p>Copy right © 2022 Anis Suhaila. All right reserved</p></h2></span>
+
+</htm>
