@@ -37,7 +37,6 @@
     display: block;
 
   
-
   
 }
 header, .content :where(i, p, span){
@@ -195,7 +194,6 @@ h2{
 	width: 100%;
 	text-align: center;
 	-webkit-box-reflect : below 1px linear-gradient(transparent , #0004);
-	line-height: 0.90em;
 	outline: none;
 	animation: animate 5s linear infinite;
 }
