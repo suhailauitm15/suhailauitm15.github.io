@@ -123,7 +123,7 @@ span{
     position: absolute;
     bottom: 20%;
     transform: translateX(-50%);
-    transform: translateX(100px);
+    transform: translateX(80px);
     transition: bottom 1s, left 1s;
     cursor: pointer;
 }
