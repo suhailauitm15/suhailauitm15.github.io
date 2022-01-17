@@ -120,7 +120,7 @@ span{
 .img-box img{
     height: 100%;
     position: absolute;
-    left: -120%;
+    left: 1000%;
     bottom: 20%;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
